@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+body{
+    margin: 0;
+    background: rgb(217, 231, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    width: 400px;
+    height: auto;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    max-width: 350px;
+}
+
+.bloco img{
+    width: 110%;
+    height: auto;
+    margin-top: -15px;
+    border-radius: 10px;
+}
+
+.bloco h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.bloco p{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
+}
